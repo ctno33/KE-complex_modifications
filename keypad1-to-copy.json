@@ -1,0 +1,25 @@
+{
+  "title": "Map keypad 1 to Copy (Cmd+C)",
+  "rules": [
+    {
+      "description": "Map keypad 1 to Command+C (Copy)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "keypad_1",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": ["left_command"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
