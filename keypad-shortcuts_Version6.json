@@ -1,0 +1,65 @@
+{
+  "title": "Keypad shortcuts (map keypad keys to common macOS shortcuts)",
+  "rules": [
+    {
+      "description": "Map keypad keys to common macOS shortcuts (Copy, Paste, Cut, Undo, Redo, Select All, Save, Close, Open, Find, Print)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_1", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "c", "modifiers": ["command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_2", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "v", "modifiers": ["command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_3", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "x", "modifiers": ["command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_4", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "z", "modifiers": ["command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_5", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "z", "modifiers": ["command", "shift"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_6", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "a", "modifiers": ["command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_7", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "s", "modifiers": ["command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_8", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "w", "modifiers": ["command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_9", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "o", "modifiers": ["command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_0", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "f", "modifiers": ["command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "keypad_decimal", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "p", "modifiers": ["command"] }]
+        }
+      ]
+    }
+  ]
+}
